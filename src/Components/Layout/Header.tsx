@@ -5,7 +5,7 @@ const Header = () => {
     <div>
       <div className="banner-style py-3">
         <img src={logo} className="logo-style px-3" />
-        <h1 className="heading1">Contactopedia</h1>        
+        <h1 className="heading1">Reduxopedia</h1>        
       </div>
     </div>
   );
