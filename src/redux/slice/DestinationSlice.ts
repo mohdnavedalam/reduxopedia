@@ -17,7 +17,7 @@ const initialState = () => {
                 name: "Auckland, New Zealand",
                 days: 14,
                 fact: "Last coutry in the world to be inhabited by humans"
-            }
+            },
         ],
         destinationSelected: null
     };
