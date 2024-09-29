@@ -37,3 +37,8 @@
 .image-border-red {
     border: 1px solid red;
 }
+
+.destinationList-margin {
+    margin-top: 10px;
+    margin-left: 10px;
+}
