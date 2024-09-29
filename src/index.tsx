@@ -1,10 +1,10 @@
 import ReactDOM from 'react-dom/client';
-import Header from './Components/Layout/Header';
-import Footer from './Components/Layout/Footer';
+import Header from './app/Layout/Header';
+import Footer from './app/Layout/Footer';
 import { store } from './redux/store';
 import { Provider } from 'react-redux';
 import React from 'react';
-import Counter from './Components/Counter';
+import Counter from './app/Components/Counter';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
