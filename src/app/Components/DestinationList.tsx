@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { destinationClicked } from "../../redux/slice/DestinationSlice";
+import { destinationClicked } from "../../redux/store";
 import '../../CSS/style.css';
 
 const DestinationList = () => {
