@@ -25,11 +25,17 @@ export const CounterSlice = createSlice({
         resetMultiplier: (state: any) => {
             state.count = 0;
         },
-        resetAllCounters: (state: any) => {
+        // resetAllCounters: (state: any) => {
+        //     state.count = 0;
+        // }
+    },
+    extraReducers: (builder: any) => {
+        builder.addCase("destinations/resetDestination", (state: any, action: any) => {
             state.count = 0;
-        }
-    }
+            console.log(action.payload);
+        });
+    },
 });
 
-export const {increment, decrement, reset, decrementMultiplier, incrementMultiplier, resetMultiplier, resetAllCounters} = CounterSlice.actions;
+export const {increment, decrement, reset, decrementMultiplier, incrementMultiplier, resetMultiplier, /*resetAllCounters*/} = CounterSlice.actions;
 export const counterReducer = CounterSlice.reducer;

@@ -26,3 +26,5 @@ const DestinationList = () => {
 };
 
 export default DestinationList;
+
+// try with mapping and onclick event wrapped in a function

@@ -30,7 +30,11 @@ export const DestinationSlice = createSlice({
         destinationClicked: (state: any, action: any) => {
             state.destinationSelected = action.payload;
         },
-        resetDestination: (state: any) => {
+        resetDestination: (state: any, /*action: any*/) => {
+            // console.log(action);
+            // console.log(action.payload);
+            // console.log(state.resetDestination);
+            // pending with action parameter
             state.destinationSelected = null;
         }
     }
