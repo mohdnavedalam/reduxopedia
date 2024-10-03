@@ -30,9 +30,9 @@ export const CounterSlice = createSlice({
         // }
     },
     extraReducers: (builder: any) => {
-        builder.addCase("destinations/resetDestination", (state: any, action: any) => {
+        builder.addCase("destinations/resetDestination", (state: any, /*action: any*/) => {
             state.count = 0;
-            console.log(action.payload);
+            //console.log(action.payload);
         });
     },
 });
